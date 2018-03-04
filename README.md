@@ -1,6 +1,6 @@
-![swapsy.js](./logo.svg?raw=true "Swapsy")
+![swapsy.js](./logo.png?raw=true "Swapsy")
 
-![](https://travis-ci.org/gpmcadam/swapsy.png?branch=master)
+![](https://travis-ci.org/gpmcadam/swapsy.svg?branch=master)
 
 Swap two elements in an array. Easy, peasy.
 
