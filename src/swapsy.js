@@ -1,6 +1,6 @@
 module.exports = (orig, a, b) => {
   if (!Array.isArray(orig)) {
-    console.warn('invalid type for arraySwap, expected Array as first param');
+    console.warn('invalid type for swapsy, expected Array as first param');
     return orig;
   }
   if (a < 0 || b < 0 || !orig[a] || !orig[b]) {
