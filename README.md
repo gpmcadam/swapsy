@@ -1,5 +1,7 @@
 # array-swap
 
+![](https://travis-ci.org/gpmcadam/array-swap.svg?branch=master)
+
 ## Install
 
     $ npm install array-swap
