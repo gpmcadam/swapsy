@@ -1,14 +1,14 @@
-# array-swap
+# arrayswap
 
 ![](https://travis-ci.org/gpmcadam/array-swap.svg?branch=master)
 
 ## Install
 
-    $ npm install array-swap
+    $ npm install arrayswap
 
 ## Example
 
-    const arraySwap = require('array-swap');
+    const arraySwap = require('arrayswap');
 
     const arr = [ 'hello', 'world' ]
     const fromIndex = 0
@@ -59,10 +59,10 @@ And your reducer might have looked like this:
 Which is bad because it's long, ungainly, wasteful
 and mutates the state directly. Also note, there are worse implementations than the one above.
 
-But with array-swap, keep your reducers pure and
+But with arrayswap, keep your reducers pure and
 readable:
 
-    const swap = require('array-swap');
+    const swap = require('arrayswap');
 
     const items = (state = [], ({ from, to })) => {
       switch (action.type) {

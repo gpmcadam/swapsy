@@ -1,2 +1,2 @@
-const arraySwap = require('./src/array-swap');
+const arraySwap = require('./src/arrayswap');
 module.exports = arraySwap;

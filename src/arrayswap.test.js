@@ -1,8 +1,8 @@
 const { expect } = require('chai');
 
-const arraySwap = require('./array-swap');
+const arraySwap = require('./arrayswap');
 
-describe('array-swap', () => {
+describe('arrayswap', () => {
   it('swaps two elements in an array', () => {
     const arr = [ 'hello', 'world' ];
     const actual = arraySwap(arr, 0, 1);
