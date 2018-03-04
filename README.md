@@ -1,4 +1,4 @@
-# swapsy
+![swapsy.js](./logo.svg?raw=true "Swapsy")
 
 ![](https://travis-ci.org/gpmcadam/swapsy.svg?branch=master)
 
